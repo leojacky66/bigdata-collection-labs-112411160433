@@ -2,11 +2,11 @@
 
 ## 学生信息
 
-- **姓名：**陈泓宇
-- **学号：**112411160433
-- **班级：**数据1241
-- **GitHub 用户名：**leojacky66
-- **仓库地址：**https://github.com/leojacky66/bigdata-collection-labs-112411160433
+- **姓名：** 陈泓宇
+- **学号：** 112411160433
+- **班级：** 数据1241
+- **GitHub 用户名：** leojacky66
+- **仓库地址：** https://github.com/leojacky66/bigdata-collection-labs-112411160433
 
 > 文件位置：`lab01/REPORT.md`  
 > 完整代码保存在 `lab1_html_api.ipynb`。本报告只记录关键发现、关键代码、结果和指定截图。
@@ -161,7 +161,7 @@ next_url = urljoin(current_url, next_href)
 | 1 | 20 |
 | 2 | 20 |
 | 3 | 20 |
-| **合计** | **60** |
+| **合计** | ** 60** |
 
 - 唯一 `company_id` 数：60
 
