@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-10-27T18:40:38.738597+08:00",
+  "source": "Firecrawl 在线取得的完整10页 HTML",
+  "csv_rows": 498,
+  "previous_first_page_import": {
+    "before": 0,
+    "inserted": 60,
+    "after": 60
+  },
+  "previous_batch_import": {
+    "before": 119,
+    "inserted": 117,
+    "after": 236
+  },
+  "current_import": {
+    "before": 236,
+    "inserted": 262,
+    "after": 498
+  },
+  "independent_rerun": {
+    "before": 498,
+    "inserted": 0,
+    "after": 498
+  },
+  "all_fields_equal": true,
+  "cross_page_sample_available": true,
+  "site_collection_complete": true,
+  "samples": [
+    {
+      "position": 1,
+      "title": "万科物业自营 南坪六公里金域翰林 三号线精装正三房带家具电器",
+      "house": "万科金域学府翰林菁华里",
+      "address": "南岸学府大道二塘路59号",
+      "struct": "3室2厅1卫",
+      "area": "89.9㎡",
+      "floor": "低层(共27层)",
+      "maketime": "2019年建造",
+      "price": "16465元/㎡"
+    },
+    {
+      "position": 61,
+      "title": "万科物业自营 朝中庭 业主诚心出售",
+      "house": "万科金域学府翰林菁华里",
+      "address": "南岸学府大道二塘路59号",
+      "struct": "3室2厅1卫",
+      "area": "85.7㎡",
+      "floor": "低层(共27层)",
+      "maketime": "2018年建造",
+      "price": "16914元/㎡"
+    },
+    {
+      "position": 498,
+      "title": "恒大照母山 精装3房 内圈位置 户型方正 拎包即住 诚意出售",
+      "house": "恒大照母山山水城",
+      "address": "渝北照母山恒康路9号",
+      "struct": "3室2厅1卫",
+      "area": "90.2㎡",
+      "floor": "低层(共32层)",
+      "maketime": "2015年建造",
+      "price": "15530元/㎡"
+    }
+  ]
+}
