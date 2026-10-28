@@ -25,11 +25,18 @@
 
 ## 结果图片说明
 
-报告在对应步骤插入15张图片：
+报告在对应步骤插入17张图片：
 
 - `01—02`：第一阶段真实MySQL终端表结构与入库前0条。
-- `07—09`：真实MySQL Workbench查询，包括498条、`LIMIT 5`、`USE`、`SHOW TABLES`和`DESCRIBE`。
-- `03—06、10—13`：已执行Notebook单元的HTML导出页面截图，包含代码框选、原日志读取、CSV回读和三样本八字段核对。它们不是IDE或MySQL终端界面截图。
+- `03—06、10—13`：已执行Notebook单元的HTML导出页面截图，包含代码框选、原日志读取、CSV回读和三样本八字段核对。
 - `14—15`：学生提供的浏览器开发者工具截图，展示房源父容器、标题和选择器匹配结果。第14张后加红框，原图存于 `evidence/14_selector_nodes_original.png`。
+- `16—17`：正式CSV在WPS中的表头、数据及末尾行号。第1行为表头，第2—499行为498条数据，第500行起为空。
+- `18—20`：2026-10-28学生实际执行的MySQL终端截图，分别展示`USE / SHOW TABLES / DESCRIBE`、`COUNT(*) AS after_count`得到498、八字段`ORDER BY id LIMIT 5`。第三张因终端宽度换行，保留原图内容。
 
-第三阶段Workbench图仅作为教师要求的MySQL终端图的替代证据；历史236条状态未补拍，不清表重造。原在线采集与本次归档核验已明确区分，未声称全部满足截图验收形式。
+### 本次三张MySQL终端截图
+
+1. [数据库、表和字段结构](images/18_mysql_terminal_schema.png)
+2. [入库后498条记录](images/19_mysql_terminal_count.png)
+3. [前5条房源的8个字段](images/20_mysql_terminal_samples.png)
+
+原`07—09`的Workbench截图仍保存在images目录，报告对应位置已改为终端截图。完整在线批次入库前236条的历史终端图未留存，对应数值保留原运行记录；本次截图核对当前结果。
